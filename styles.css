@@ -81,7 +81,7 @@ body {
   line-height: 0.2;
   
 }
-  button {
+  a {
     background:    #c0df34;
     border:        0px solid #c0df34;
     border-radius: 5px;
@@ -94,6 +94,9 @@ body {
     margin-top: 30px;
 }
 
+a:hover {
+  color: hsl(179, 62%, 43%);
+}
 /* Right Box */
 
 
