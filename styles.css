@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body { 
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.wrapper {
+  margin: 4.5% auto 4%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  max-width: 650px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.13);
+}
+
+.wrapper > * {
+  padding: 25px;
+  flex: 1 100%;
+}
+
+
+.header {
+  height: 200px;
+  background-color: #fff;
+
+}
+#title {
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  font-size: 1.25rem;
+}
+
+#guarantee {
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 20px;
+}
+
+.top-info {
+  color: hsl(218, 22%, 67%);
+  opacity: 0.6;
+  
+}
+
+/* Bottom Section */
+
+/* left-box */
+
+.left {
+  text-align: left;
+  background-color: hsl(179, 62%, 41%);
+  height: 200px;
+  font-size: 16px;
+}
+#monthly {
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  opacity: 0.9;
+}
+  #price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+  }
+  .permonth {
+    color: hsl(195, 43%, 91%); 
+    font-size: 0.8rem; 
+    opacity: 0.5;
+    
+  }
+  #access {
+      color: hsl(204, 43%, 93%);
+      opacity: 0.7;
+      
+  }
+
+.price {
+  line-height: 0.2;
+  
+}
+  button {
+    background:    #c0df34;
+    border:        0px solid #c0df34;
+    border-radius: 5px;
+    width:         250px;
+    height:        40px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 16px/40px "Open Sans", sans-serif;
+    text-align:    center;
+    margin-top: 30px;
+}
+
+/* Right Box */
+
+
+.right {
+  text-align: left;
+  background-color: hsl(179, 62%, 45%);
+  height: 200px;
+  font-size: 16px;
+}
+
+#why-us {
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  opacity: 0.9;
+  padding-bottom: 10px;
+}
+
+.reasons {
+    color: hsl(204, 43%, 90%);
+    opacity: 0.75;
+    line-height: 0.33;
+    
+    
+}
+
+@media all and (min-width: 600px) {
+  .bottom {
+    flex: 3;
+  }
+  .left {
+    order: 1;
+  }
+  .right {
+    order: 2;
+  }
+
+}
+
+@media all and (mix-width: 600px){
+  .bottom {
+    flex: 1;
+  }
+}
